@@ -1,0 +1,16 @@
+import React,{Component} from 'react'
+import {Row,Col} from 'antd'
+
+export default class Newsfooter  extends Component{
+    render(){
+        return(
+            <div className="ant-row">
+                <Row>
+                    <Col span={1}></Col>
+                    <Col span={22} style={{textAlign:'center',padding:'20px'}}>2017 ReactNews. All Rights Reserved.</Col>
+                    <Col span={1}></Col>
+                </Row>
+            </div>
+        )
+    }
+}
